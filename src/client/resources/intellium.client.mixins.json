@@ -5,7 +5,11 @@
   "compatibilityLevel": "JAVA_21",
   "client": [
     "WorldRendererMixin",
-    "SodiumRenderSectionManagerMixin"
+    "SodiumRenderSectionManagerMixin",
+    "SodiumBuildResultUploadMixin",
+    "SodiumCleanUpMixin",
+    "SodiumSectionRemovalMixin",
+    "SodiumChunkBuilderMixin"
   ],
   "injectors": {
     "defaultRequire": 1
