@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "intellium",
+  "version": "${version}",
+  "name": "Intellium",
+  "description": "Intel Graphics terrain renderer for Sodium.",
+  "authors": [
+    "smjetanka_"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/intellium/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "pl.smjetanka_.intellium.client.IntelliumDataGenerator"
+    ],
+    "client": [
+      "pl.smjetanka_.intellium.client.IntelliumClient"
+    ],
+    "main": [
+      "pl.smjetanka_.intellium.Intellium"
+    ]
+  },
+  "mixins": [
+    "intellium.mixins.json",
+    {
+      "config": "intellium.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "sodium": [
+      ">=0.8.11"
+
+    ]
+  }
+}

@@ -8,8 +8,18 @@ pluginManagement {
     }
 }
 
-include 'intellium-1.21:intellium-1.21-1.21.8'
+include 'intellium-1.21:intellium-1.21'
+include 'intellium-1.21:intellium-1.21.1'
+include 'intellium-1.21:intellium-1.21.2'
+include 'intellium-1.21:intellium-1.21.3'
+include 'intellium-1.21:intellium-1.21.4'
+include 'intellium-1.21:intellium-1.21.5'
+include 'intellium-1.21:intellium-1.21.6'
+include 'intellium-1.21:intellium-1.21.7'
+include 'intellium-1.21:intellium-1.21.8'
+include 'intellium-1.21:intellium-1.21.9'
 include 'intellium-1.21:intellium-1.21.11'
 include 'intellium-1.21:intellium-1.21.10'
-include 'intellium-26.1'
-include 'intellium-26.3'
+include 'intellium-26:intellium-26.1'
+include 'intellium-26:intellium-26.2'
+include 'intellium-26:intellium-26.3'
