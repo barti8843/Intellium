@@ -1,0 +1,9 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    api "org.lwjgl:lwjgl:3.3.3"
+    api "org.lwjgl:lwjgl-vulkan:3.3.3"
+
+}

@@ -7,3 +7,9 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
+include 'intellium-1.21:intellium-1.21-1.21.8'
+include 'intellium-1.21:intellium-1.21.11'
+include 'intellium-1.21:intellium-1.21.10'
+include 'intellium-26.1'
+include 'intellium-26.3'

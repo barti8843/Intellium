@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "intellium-26-3",
+  "version": "1.0.0",
+  "name": "Intellium Vulkan 26.3",
+  "environment": "client",
+  "depends": {
+    "minecraft": ">=26.2 <=26.3.9"
+  }
+}
